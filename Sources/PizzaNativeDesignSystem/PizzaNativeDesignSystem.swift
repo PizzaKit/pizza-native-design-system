@@ -29,7 +29,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 32, weight: .semibold).roundedIfNeeded,
+            font: .systemFont(ofSize: 32, weight: .semibold),
             color: color,
             alignment: alignment,
             lineHeight: 38
@@ -41,7 +41,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 28, weight: .regular).roundedIfNeeded,
+            font: .systemFont(ofSize: 28, weight: .regular),
             color: color,
             alignment: alignment,
             lineHeight: 34
@@ -52,7 +52,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 22, weight: .bold).roundedIfNeeded,
+            font: .systemFont(ofSize: 22, weight: .bold),
             color: color,
             alignment: alignment,
             lineHeight: 28
@@ -63,7 +63,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 20, weight: .regular).roundedIfNeeded,
+            font: .systemFont(ofSize: 20, weight: .regular),
             color: color,
             alignment: alignment,
             lineHeight: 25
@@ -75,7 +75,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 17, weight: .semibold).roundedIfNeeded,
+            font: .systemFont(ofSize: 17, weight: .semibold),
             color: color,
             alignment: alignment,
             lineHeight: 22
@@ -87,7 +87,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 17, weight: .regular).roundedIfNeeded,
+            font: .systemFont(ofSize: 17, weight: .regular),
             color: color,
             alignment: alignment,
             lineHeight: 22
@@ -99,7 +99,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 16, weight: .regular).roundedIfNeeded,
+            font: .systemFont(ofSize: 16, weight: .regular),
             color: color,
             alignment: alignment,
             lineHeight: 21
@@ -111,7 +111,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 15, weight: .regular).roundedIfNeeded,
+            font: .systemFont(ofSize: 15, weight: .regular),
             color: color,
             alignment: alignment,
             lineHeight: 20
@@ -123,7 +123,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 13, weight: .regular).roundedIfNeeded,
+            font: .systemFont(ofSize: 13, weight: .regular),
             color: color,
             alignment: alignment,
             lineHeight: 18
@@ -135,7 +135,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 13, weight: .semibold).roundedIfNeeded,
+            font: .systemFont(ofSize: 13, weight: .semibold),
             color: color,
             alignment: alignment,
             lineHeight: 18
@@ -147,7 +147,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 12, weight: .regular).roundedIfNeeded,
+            font: .systemFont(ofSize: 12, weight: .regular),
             color: color,
             alignment: alignment,
             lineHeight: 16
@@ -158,7 +158,7 @@ public struct PizzaNativeLabelStyles: PizzaLabelStyles {
         alignment: NSTextAlignment
     ) -> UILabelStyle {
         UILabelNativeStyle(
-            font: .systemFont(ofSize: 11, weight: .regular).roundedIfNeeded,
+            font: .systemFont(ofSize: 11, weight: .regular),
             color: color,
             alignment: alignment,
             lineHeight: 13
@@ -242,7 +242,7 @@ public struct PizzaNativeTextFieldStyles: PizzaTextFieldStyles {
 
     public func standardTextField(placeholder: String?) -> UIStyle<UITextField> {
         UITextFieldNativeStyle(
-            font: .systemFont(ofSize: 17).roundedIfNeeded,
+            font: .systemFont(ofSize: 17),
             textColor: .palette.label,
             placeholderColor: .palette.labelTertiary,
             placeholder: placeholder,
@@ -256,7 +256,7 @@ public struct PizzaNativeTextFieldStyles: PizzaTextFieldStyles {
 
     public func standardErrorTextField(placeholder: String?) -> UIStyle<UITextField> {
         UITextFieldNativeStyle(
-            font: .systemFont(ofSize: 17).roundedIfNeeded,
+            font: .systemFont(ofSize: 17),
             textColor: .palette.labelError,
             placeholderColor: .palette.labelTertiary,
             placeholder: placeholder,
@@ -270,7 +270,7 @@ public struct PizzaNativeTextFieldStyles: PizzaTextFieldStyles {
 
     public func emailTextField(placeholder: String?) -> UIStyle<UITextField> {
         UITextFieldNativeStyle(
-            font: .systemFont(ofSize: 17).roundedIfNeeded,
+            font: .systemFont(ofSize: 17),
             textColor: .palette.label,
             placeholderColor: .palette.labelTertiary,
             placeholder: placeholder,
@@ -284,7 +284,7 @@ public struct PizzaNativeTextFieldStyles: PizzaTextFieldStyles {
 
     public func emailErrorTextField(placeholder: String?) -> UIStyle<UITextField> {
         UITextFieldNativeStyle(
-            font: .systemFont(ofSize: 17).roundedIfNeeded,
+            font: .systemFont(ofSize: 17),
             textColor: .palette.labelError,
             placeholderColor: .palette.labelTertiary,
             placeholder: placeholder,

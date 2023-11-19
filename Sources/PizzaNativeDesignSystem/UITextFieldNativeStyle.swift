@@ -36,7 +36,7 @@ public class UITextFieldNativeStyle: UIStyle<UITextField> {
     }
 
     public override func apply(for textField: UITextField) {
-        textField.font = font
+        textField.font = font.roundedIfNeeded
         textField.keyboardType = keyboardType
         textField.autocapitalizationType = autocapitalizationType
         textField.autocorrectionType = autocorrectionType

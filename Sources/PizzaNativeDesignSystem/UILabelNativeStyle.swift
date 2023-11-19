@@ -21,7 +21,7 @@ public class UILabelNativeStyle: UILabelStyle {
 
     public override func apply(for label: PizzaLabel) {
         label.attributedText = StringBuilder(text: label.text)
-            .font(font)
+            .font(font.roundedIfNeeded)
             .lineHeight(lineHeight)
             .alignment(alignment)
             .foregroundColor(color)
@@ -31,7 +31,7 @@ public class UILabelNativeStyle: UILabelStyle {
 
     public override func getAttributes() -> [NSAttributedString.Key: Any] {
         StringBuilder()
-            .font(font)
+            .font(font.roundedIfNeeded)
             .lineHeight(lineHeight)
             .alignment(alignment)
             .foregroundColor(color)
