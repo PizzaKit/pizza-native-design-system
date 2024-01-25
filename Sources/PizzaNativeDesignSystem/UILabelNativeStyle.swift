@@ -35,7 +35,6 @@ public class UILabelNativeStyle: UILabelStyle {
             .lineHeight(lineHeight)
             .alignment(alignment)
             .foregroundColor(color)
-            .lineBreakMode(.byTruncatingTail)
             .attributes
     }
 }

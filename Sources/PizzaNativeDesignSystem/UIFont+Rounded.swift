@@ -4,7 +4,7 @@ enum FontRoundStorage {
     static var needRounded = false
 }
 
-extension UIFont {
+public extension UIFont {
 
     var roundedIfNeeded: UIFont {
         if FontRoundStorage.needRounded {
